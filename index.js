@@ -19,4 +19,4 @@ app.use(express.json());
 
 app.use("/api/v1/job", jobRoutes);
 
-app.listen(5000, () => console.log("Server is up and running at port 5000"));
+app.listen(10000, () => console.log("Server is up and running at port 5000"));
